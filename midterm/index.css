@@ -1,0 +1,135 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    height: 1900px;
+    background-color: #aad4cf;
+}
+
+p {
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+.banner {
+    background-size: cover;
+    height: 570px;
+    width: 100%;
+
+}
+
+.banner img {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1;
+}
+
+nav a {
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0 180px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+li {
+    font-size: 23px;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+    z-index: 2;
+}
+#starfish {
+    float: left;
+    margin: 0 15px 25px 0;
+    width: 250px;
+    height: 250px;
+}
+
+.form {
+    border:2px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: black;
+    margin-left: 10px;
+}
+
+input, textarea {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 1440px;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#label {
+    margin-left: 10px;
+    font-size: 23px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 10px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    border: black solid 2px;
+    width: 80px;
+    font-weight: 700;
+}
+
+button:hover {
+    transition: 1s;
+    background-color: #ffffff;
+}
+
+input[type="radio"] {
+    display: inline-block;
+			margin-right: 10px;
+			border-radius: 50%;
+			width: 20px;
+			height: 20px;
+        }
+
+        #radio {
+            margin-left: 20px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        footer {
+            text-align: right;
+            font-weight: 700;
+        }
