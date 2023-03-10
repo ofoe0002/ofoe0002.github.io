@@ -61,6 +61,7 @@ li {
     font-size: 4rem;
     z-index: 2;
 }
+
 #starfish {
     float: left;
     margin: 0 15px 25px 0;
@@ -69,7 +70,7 @@ li {
 }
 
 .form {
-    border:2px solid black;
+    border: 2px solid black;
 }
 
 form {
@@ -79,7 +80,8 @@ form {
     margin-left: 10px;
 }
 
-input, textarea {
+input,
+textarea {
     margin: 10px;
     padding: 10px;
     border: 1px solid black;
@@ -117,19 +119,19 @@ button:hover {
 
 input[type="radio"] {
     display: inline-block;
-			margin-right: 10px;
-			border-radius: 50%;
-			width: 20px;
-			height: 20px;
-        }
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
 
-        #radio {
-            margin-left: 20px;
-            font-size: 20px;
-            font-weight: 700;
-        }
+#radio {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
 
-        footer {
-            text-align: right;
-            font-weight: 700;
-        }
+footer {
+    text-align: right;
+    font-weight: 700;
+}
